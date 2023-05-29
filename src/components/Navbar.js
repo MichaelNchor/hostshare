@@ -90,8 +90,8 @@ export default function Navbar() {
             src="https://tecdn.b-cdn.net/img/new/avatars/2.jpg"
             className="rounded-full h-[34px]"
             alt=""
-            height='34px'
-            width='auto'
+            height='34'
+            width='34'
             loading="lazy" />
         </a>
         <ul

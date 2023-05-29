@@ -60,8 +60,8 @@ export default function Tile() {
             src={slides[currentIndex].url}
             className="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover"
             alt="..."
-            // width="100"
-            // height="100"
+            width="400"
+            height="100"
         />
         </div>
     </div>
