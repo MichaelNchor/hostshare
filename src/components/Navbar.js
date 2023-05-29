@@ -54,7 +54,7 @@ export default function Navbar() {
     </Link>
 
     <div className="!visible mt-2 hidden basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto" id="navbarSupportedContent4" data-te-collapse-item>
-      <Link href='/' className="pr-2 text-xl font-semibold text-white" href="#">
+      <Link href='/' className="pr-2 text-xl font-semibold text-white">
         <Image src={logo_green} width="150" height="150" alt=""/>
       </Link>
     </div>
