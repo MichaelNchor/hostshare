@@ -1,6 +1,7 @@
 import React from 'react'
 import Tile from '@/components/Tile'
 import Link from 'next/link'
+import SubNav from '@/components/SubNav'
 
 export default function listings({categories}) {
   return (
