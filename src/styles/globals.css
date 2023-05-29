@@ -1,4 +1,71 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  body {
+    color: #000;
+    background: #fff;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+.dark\:text-white\/80 {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+}
+
+@media (prefers-color-scheme: dark){
+.dark\:bg-slate-800 {
+    --tw-bg-opacity: 1 !important;
+    background-color: #fff !important;
+}
+}
+
+@media (prefers-color-scheme: dark){
+.dark\:border-slate-600 {
+    --tw-border-opacity: 1 !important;
+    border-color: #b8b8b81a !important;
+    border-width: 1px;
+}
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #000 !important;
+}
+/* 
+#headlessui-popover-panel-\:r9\: > div > div > div.absolute.z-20.h-4.w-4.rotate-45.mt-0\.5.ml-\[1\.2rem\].border-l.border-t.border-gray-300.bg-white.dark\:bg-slate-800.dark\:border-slate-600.right-0.mr-3\.5, #headlessui-popover-panel-\:r9\: > div > div > div.mt-2\.5.shadow-sm.border.border-gray-300.px-1.py-0\.5.bg-white.dark\:bg-slate-800.dark\:text-white.dark\:border-slate-600.rounded-lg {
+  background-color: white;
+} */
+
+
+/* ---Tailwind css---- */
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +171,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
