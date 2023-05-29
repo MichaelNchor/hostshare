@@ -2,7 +2,7 @@ import React from 'react'
 import Tile from '@/components/Tile'
 import Link from 'next/link'
 
-export default function listings({listing}) {
+export default function listingsCat({listing}) {
   return (
     <>
     <nav className="flex mt-12 mb-6 min-lg:mx-28 mx-12 rounded-md bg-neutral-50 px-5 py-3 ">
@@ -61,7 +61,7 @@ export async function getStaticProps(context){
     const {data} = await import('/data/listings.json');
     console.log(data)
 
-    // const listing = data.filter(ev => ev.type === type)
+    const listing = data.filter(ev => ev.type === type)
 
     console.log(context)
     return {
