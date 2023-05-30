@@ -36,7 +36,7 @@ export default function SearchBox() {
     {/* <Popover.Overlay className="fixed inset-0 bg-black opacity-30" /> */}
     <Popover.Panel className="absolute right-[-10.5rem] shadow-lg border-[1px] border-gray-50 bg-white rounded-xl flex z-[37] w-96 h-96 justify-center items-center opacity-100">
         <div className="flex w-full flex-wrap h-96 justify-center items-stretch">
-        <div className="bg-gray-100 w-1/3 border-[1px] border-gray-200 rounded-lg m-2 flex justify-center items-center p-2 hover:bg-gray-300">I'm flexible</div>
+        <div className="bg-gray-100 w-1/3 border-[1px] border-gray-200 rounded-lg m-2 flex justify-center items-center p-2 hover:bg-gray-300">I&apos;m flexible</div>
         <div className="bg-gray-100 w-1/3 border-[1px] border-gray-200 rounded-lg m-2 flex justify-center items-center p-2 hover:bg-gray-300">Europe</div>
         <div className="bg-gray-100 W-1/3 border-[1px] border-gray-200 rounded-lg m-2 flex justify-center items-center p-2 hover:bg-gray-300">United Kingdom</div>
         <div className="bg-gray-100 w-1/3 border-[1px] border-gray-200 rounded-lg m-2 flex justify-center items-center p-2 hover:bg-gray-300">United States</div>
